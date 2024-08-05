@@ -5,7 +5,6 @@ const UrlContainer = (props) => {
   const urls = Array.isArray(props.urls) ? props.urls : []
 
   const urlEls = urls
-  .filter(url => url && url.title && url.short_url && url.long_url)
   .map(url => {
     return (
       <div className="url" key={url.id}>
