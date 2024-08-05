@@ -1,0 +1,6 @@
+.url-card {
+    box-sizing: border-box;
+    border:.2rem solid black;
+    padding: .75rem;
+    background-color: white;
+}

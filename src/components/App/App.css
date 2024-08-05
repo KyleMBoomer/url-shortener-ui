@@ -15,3 +15,8 @@
   background-repeat: no-repeat;
   background-image: url('../../scissors.jpg');
 }
+
+header {
+  /* background-color: black; */
+  border:.3rem solid red;
+}
